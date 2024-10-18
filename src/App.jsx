@@ -51,7 +51,7 @@ import './App.css';
                           <button
                               type="submit"
                               className="search-button">
-                              1
+                              Search
                           </button>
                       </form>
                   </HeaderWrapper>

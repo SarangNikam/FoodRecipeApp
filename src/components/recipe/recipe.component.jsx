@@ -6,9 +6,9 @@ import {RecipeItem} from "./recipe.styled";
             <RecipeItem>
                 <h1>{title}</h1>
                 <p>{calories}</p>
-                    {/*{ingredients.map(ingredient =>(*/}
-                    {/*    <li>{ingredient.text}</li>*/}
-                    {/*))};*/}
+                    {ingredients.map(ingredient =>(
+                        <li>{ingredient.text}</li>
+                    ))};
                 <img src={image} alt=""/>
             </RecipeItem>
         );

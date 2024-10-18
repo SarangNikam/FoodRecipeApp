@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 
 export const RecipeItem = styled.div`
   margin: 20px;
-  width: 20%;
+  width: 25%;
   padding: 20px;
   box-shadow: -5px 6px 18px 0px rgba(0,0,0,0.15);
 `;
